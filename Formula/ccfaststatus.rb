@@ -18,6 +18,13 @@ class Ccfaststatus < Formula
     bin.install "ccfaststatus"
   end
 
+  def caveats
+    <<~EOS
+      Run the following to configure your Claude Code status line:
+        ccfaststatus
+    EOS
+  end
+
   test do
     output = pipe_output("#{bin}/ccfaststatus", "{}")
     refute_empty output.strip
