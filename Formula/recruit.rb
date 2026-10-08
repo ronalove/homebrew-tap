@@ -13,23 +13,23 @@ class Recruit < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/r9r-dev/recruit/releases/download/v0.9.0/recruit-0.9.0-aarch64-apple-darwin.tar.gz"
-      sha256 "22acd95475666dc4ecf13a2b67ddff6e48f57c7b831da468789a0f2c190f51cc"
+      url "https://github.com/r9r-dev/recruit/releases/download/v0.9.1/recruit-0.9.1-aarch64-apple-darwin.tar.gz"
+      sha256 "0ffaab7bd0749ec35960201ae30da9efe4832a96991f4d0798cfc1af05f6d731"
     end
     on_intel do
-      url "https://github.com/r9r-dev/recruit/releases/download/v0.9.0/recruit-0.9.0-x86_64-apple-darwin.tar.gz"
-      sha256 "baf1325e776c487a152fa349cb4c90f33eada0c3124c9d511106756beb96f943"
+      url "https://github.com/r9r-dev/recruit/releases/download/v0.9.1/recruit-0.9.1-x86_64-apple-darwin.tar.gz"
+      sha256 "0364b07c66572e35864633b10c21591a58398631c478cff0a246532d3e87d6dc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/r9r-dev/recruit/releases/download/v0.9.0/recruit-0.9.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "cd35ac4ffc2490278a75b9f402583e44a77baff03ad0e9638cd291f6611c4100"
+      url "https://github.com/r9r-dev/recruit/releases/download/v0.9.1/recruit-0.9.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "5721b75f6745f04fcd8a93ec63c820f806f78d3a22091114224f61c16ffb3fd2"
     end
     on_intel do
-      url "https://github.com/r9r-dev/recruit/releases/download/v0.9.0/recruit-0.9.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "2ec226efd7c8a03e262c7cdcef046019ce61aa0267affec49877da2de4105d81"
+      url "https://github.com/r9r-dev/recruit/releases/download/v0.9.1/recruit-0.9.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "626d783bde0d05e563e73644a2b14c9b8afa021db3b556081ee6da6475557625"
     end
   end
 
