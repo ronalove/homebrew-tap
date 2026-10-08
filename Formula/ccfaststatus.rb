@@ -1,6 +1,6 @@
 class Ccfaststatus < Formula
   desc "The Fastest Status Line for Claude Code, développée en Rust"
-  homepage "https://github.com/r9r-dev/ccfaststatus"
+  homepage "https://github.com/ronalove/ccfaststatus"
   version "0.6.0"
   license "WTFPL"
 
@@ -9,7 +9,7 @@ class Ccfaststatus < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/r9r-dev/ccfaststatus/releases/download/v0.6.0/ccfaststatus-0.6.0-aarch64-apple-darwin.tar.gz"
+      url "https://github.com/ronalove/ccfaststatus/releases/download/v0.6.0/ccfaststatus-0.6.0-aarch64-apple-darwin.tar.gz"
       sha256 "a20c7762f914f73d9fa807c360642c746e4d44495b2f201e8f9681f6d0947eb2"
     end
   end
