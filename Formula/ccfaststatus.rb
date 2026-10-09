@@ -1,18 +1,13 @@
 class Ccfaststatus < Formula
   desc "The Fastest Status Line for Claude Code, développée en Rust"
   homepage "https://github.com/ronalove/ccfaststatus"
+  url "https://github.com/ronalove/ccfaststatus/releases/download/v0.6.0/ccfaststatus-0.6.0-aarch64-apple-darwin.tar.gz"
   version "0.6.0"
+  sha256 "a20c7762f914f73d9fa807c360642c746e4d44495b2f201e8f9681f6d0947eb2"
   license "WTFPL"
 
   depends_on :macos
   depends_on arch: :arm64
-
-  on_macos do
-    if Hardware::CPU.arm?
-      url "https://github.com/ronalove/ccfaststatus/releases/download/v0.6.0/ccfaststatus-0.6.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a20c7762f914f73d9fa807c360642c746e4d44495b2f201e8f9681f6d0947eb2"
-    end
-  end
 
   def install
     bin.install "ccfaststatus"
