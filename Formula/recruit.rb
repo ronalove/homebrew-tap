@@ -13,23 +13,23 @@ class Recruit < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ronalove/recruit/releases/download/v1.1.2/recruit-1.1.2-aarch64-apple-darwin.tar.gz"
-      sha256 "896255e7271de97cb8ba242296ad3b5d83e30f33a508bc1b934488c700578f1f"
+      url "https://github.com/ronalove/recruit/releases/download/v1.1.3/recruit-1.1.3-aarch64-apple-darwin.tar.gz"
+      sha256 "6a4e61f53408086a053cb9dc023d11af3a9062696b61911460526435377397ee"
     end
     on_intel do
-      url "https://github.com/ronalove/recruit/releases/download/v1.1.2/recruit-1.1.2-x86_64-apple-darwin.tar.gz"
-      sha256 "b8a00f9a1047c03a1dea0085f2557593b8dacf1920c3f19987f0dec12603df7d"
+      url "https://github.com/ronalove/recruit/releases/download/v1.1.3/recruit-1.1.3-x86_64-apple-darwin.tar.gz"
+      sha256 "8ab100b3aab1bc986f46f4deef7b642a2b59dceae2fb9e558d952fd36f904a92"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ronalove/recruit/releases/download/v1.1.2/recruit-1.1.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "c1c79d856729f7fa49fe4f3de4ff440ce0a0f1f1f84d98360b88a7d9464a1743"
+      url "https://github.com/ronalove/recruit/releases/download/v1.1.3/recruit-1.1.3-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "61610a12e1615b484ced6bdd9cca5a17f572dfebc0bee0c445b37851b322e54f"
     end
     on_intel do
-      url "https://github.com/ronalove/recruit/releases/download/v1.1.2/recruit-1.1.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "6e268eb16f4d6065fd1facd6ad6321d82fac41312588876d324bd13271a3a31c"
+      url "https://github.com/ronalove/recruit/releases/download/v1.1.3/recruit-1.1.3-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "ea306c9170f473c4756c98fc5a9a64b4e597de6b08d63da020218292036eeb90"
     end
   end
 
